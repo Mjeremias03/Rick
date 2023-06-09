@@ -1,0 +1,21 @@
+.contenedor{
+    background-color: white;
+   border: 10px beige;
+   border-radius: 30px;
+   margin: 20px;
+   cursor: default;
+   transition: all 400ms ease;
+   width: 300px;
+}
+
+.contenedor:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+
+
+.palabras{
+  font-size: 11px;
+text-align: center;
+color: #6a6a6a;
+}
